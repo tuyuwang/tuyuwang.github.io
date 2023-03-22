@@ -30,7 +30,7 @@ struct Block_layout {
 ![footprint](/assets/img/block/footprint.jpg)
 
 
-## 0x2 测试代码
+## 0x3 测试代码
 
 1.首先定义Helper类辅助测试，代码如下：
 
@@ -318,7 +318,7 @@ TestBlock`-[ViewController test]:
 ![objc_msgSend](/assets/img/block/objc_msgSend.png)
 
 
-## 总结
+## 0x4 总结
 本篇文章通过分析以上几个测试用例的汇编代码，分析了OC对象函数与block调用在汇编层面上的区别，这种区别导致了对于block的调用需要进行判空后才能确保安全。
 ```
 !block ?: block();
