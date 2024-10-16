@@ -56,5 +56,15 @@ layout: compress
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/gh/tuyuw/live2d-widget@v0.8.6/autoload.js"></script>
+  <script src="https://adrianotiger.github.io/web-esheep/dist/esheep.min.js"></script>
+    <script>
+      var sheep = new eSheep({allowPets:"all", allowPopup:"yes"}); 
+      sheep.Start(); 
 
+      var red_sheep = new eSheep({allowPets:"all", allowPopup:"yes"}); 
+      red_sheep.Start("https://raw.githubusercontent.com/Adrianotiger/desktopPet/refs/heads/master/Pets/red_sheep/animations.xml"); 
+
+      var pink_sheep = new eSheep({allowPets:"all", allowPopup:"yes"}); 
+      pink_sheep.Start("https://raw.githubusercontent.com/Adrianotiger/desktopPet/refs/heads/master/Pets/pink_sheep/animations.xml"); 
+    </script>
 </html>
